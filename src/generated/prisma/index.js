@@ -166,7 +166,7 @@ const config = {
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../../.env"
   },
   "relativePath": "../../../prisma",
@@ -176,11 +176,12 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://scriptcruise_owner:npg_raGhvOQ2m0Ee@ep-royal-mode-a4c7erui-pooler.us-east-1.aws.neon.tech/scriptcruise?sslmode=require"
+        "value": null
       }
     }
   },
