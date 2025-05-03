@@ -37,12 +37,12 @@ export const metadata: Metadata =  {
     "Technology firms in Nakuru",
     "Technology firms in East Africa"
   ],
-  authors: [{ name: "Script Cruise Technologies", url: "https://m.com" }],
-  metadataBase: new URL("https://m.com"), // Replace with your real domain
+  authors: [{ name: "Script Cruise Technologies", url: "site:script-cruise-technologies.vercel.app" }],
+  metadataBase: new URL("site:script-cruise-technologies.vercel.app"), // Replace with your real domain
   openGraph: {
     title: "Script Cruise Technologies",
     description: "Automation and ERP solutions for the modern business.",
-    url: "https://m.com",
+    url: "site:script-cruise-technologies.vercel.app",
     siteName: "Script Cruise",
     images: [
       {
